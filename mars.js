@@ -57,3 +57,10 @@ if (spaceDecor === "A"){
     decor = "Victorian-Era";
 }
 alert(`${username} and ${companionName}, surfing the celestial abyss, in a ${decor} spaceship.`)
+alert('Time for Take off!');
+let timer = 5;
+while (timer > 0){
+    alert(`${timer}...`);
+    timer -= 1;
+}
+alert (`*** LIFTOFF ***`);
